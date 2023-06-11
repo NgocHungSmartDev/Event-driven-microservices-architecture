@@ -1,17 +1,35 @@
-/microservices-demo/mvnw.cmd
-/microservices-demo/.settings
-/microservices-demo/.project
-/microservices-demo/HELP.md
-/microservices-demo/mvnw
-/microservices-demo/twitter-to-kafka-service/twitter-to-kafka-service.iml
-/microservices-demo/twitter-to-kafka-service/.settings
-/microservices-demo/twitter-to-kafka-service/target
-/microservices-demo/twitter-to-kafka-service/.classpath
-/microservices-demo/twitter-to-kafka-service/.factorypath
-/microservices-demo/twitter-to-kafka-service/.project
-/twitter-to-kafka-service/twitter-to-kafka-service.iml
-/twitter-to-kafka-service/.settings
-/twitter-to-kafka-service/target
-/twitter-to-kafka-service/.classpath
-/twitter-to-kafka-service/.factorypath
-/twitter-to-kafka-service/.project
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+*.log
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
